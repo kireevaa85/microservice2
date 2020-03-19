@@ -1,4 +1,4 @@
-package ru.gpb.microservice2.controllers;
+package ru.gpb.rkk2.microservice2.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
