@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  microservice2:
+    image: kireevaa85/microservice2:1.0.0.228-h755e32
+    restart: always
+    ports:
+      - "8081:8081"
+    volumes:
+      - /Users/kireevaa85/projects_gpb/executiondataserver/libs/coverage-1.0.0.133-t82fj05.jar:/path_to_coverage_agent/coverage.jar
+    environment:
+      APP_NAME: microservice2-1.0.0.228-h755e32
+      JAVA_OPTS: -javaagent:/path_to_coverage_agent/coverage.jar=includes=ru.gpb.rkk2.*,sessionid=microservice2-1.0.0.228-h755e32,address=127.0.0.1,port=6300
+      INSTANCE_ID: microservice2
