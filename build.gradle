@@ -20,7 +20,7 @@ plugins {
 
 group = "ru.gpb.rkk2"
 version = "1.0.0.${BUILD_ID}"
-mainClassName = "ru.gpb.rkk2.microservice2.Microservice1Application"
+mainClassName = "ru.gpb.rkk2.microservice2.Microservice2Application"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
