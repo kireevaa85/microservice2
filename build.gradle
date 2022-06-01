@@ -18,9 +18,9 @@ plugins {
     id "io.freefair.lombok" version "4.1.6"
 }
 
-group = "ru.gpb.rkk2"
+group = "ru.connector"
 version = "1.0.0.${BUILD_ID}"
-mainClassName = "ru.gpb.rkk2.microservice2.Microservice2Application"
+mainClassName = "ru.connector.microservice2.Microservice2Application"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 

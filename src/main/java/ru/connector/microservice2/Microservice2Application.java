@@ -1,4 +1,4 @@
-package ru.gpb.rkk2.microservice2;
+package ru.connector.microservice2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
